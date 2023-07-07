@@ -1,0 +1,11 @@
+PyMuPDF
+diff-match-patch
+rapidfuzz
+scikit-learn
+scipy
+numpy
+pandas
+tqdm
+streamlit
+ultralytics
+notebook
