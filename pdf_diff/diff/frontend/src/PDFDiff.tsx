@@ -508,10 +508,10 @@ const PDFDiff: React.FC<PDFDiffProps> = ({ args }) => {
       <DiffHoverProvider>
       <div style={{
           display: "grid",
-          gridAutoColumns: "800px",
-          gridAutoRows: "900px",
+          gridAutoColumns: "1500px",
+          gridAutoRows: "1500px",
           gridTemplateColumns: "repeat(2, 1fr)",
-          gridGap: 0
+          gridGap: 20
       }}>
         
           <Doc

@@ -39,11 +39,11 @@ def read_local_file(path: str) -> bytes:
 
 st.set_page_config(layout="wide")
 
-old_pdf_path = '/home/ilia_kiselev/Downloads/Content_samples_for_automation/Correlation_Physics_Mazur_1-to-2/Mazur1_Practice_Ch2.pdf'
-new_pdf_path = '/home/ilia_kiselev/Downloads/Content_samples_for_automation/Correlation_Physics_Mazur_1-to-2/Mazur2_Ch2.pdf'
+old_pdf_path = '/home/ilia_kiselev/Downloads/Caregiver-Brochure.pdf'
+new_pdf_path = '/home/ilia_kiselev/Downloads/1. [BROKEN] Caregiver-Brochure.pdf'
 
-old_page_range = range(2, 18) #range(10, 17)
-new_page_range = range(25, 33) #range(25, 33)
+old_page_range = range(0, 8) #range(10, 17)
+new_page_range = range(0, 8) #range(25, 33)
 
 old_dlo, odlo_by_page = extract_layout_objects(old_pdf_path, old_page_range)
 new_dlo, ndlo_by_page = extract_layout_objects(new_pdf_path, new_page_range)
