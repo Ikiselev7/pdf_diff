@@ -5,15 +5,13 @@ import fitz
 import numpy as np
 import torch
 from PIL import Image
-from collections import defaultdict, namedtuple
+from collections import defaultdict
 import torch
 from yolov5_dh.utils.augmentations import letterbox
 
 from yolov5_dh.models.common import DetectMultiBackend
-from yolov5_dh.utils.general import (check_img_size, non_max_suppression, scale_coords, xyxy2xywh)
+from yolov5_dh.utils.general import (check_img_size, non_max_suppression, scale_coords)
 from yolov5_dh.utils.torch_utils import select_device, smart_inference_mode
-from scipy.spatial.distance import cdist
-from scipy.optimize import linear_sum_assignment
 
 import streamlit as st
 
